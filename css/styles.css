@@ -64,6 +64,9 @@ img {
  .st-section {
     background-color: #2e2f42;
         padding:188px 0;
+        background-image: linear-gradient(to bottom,rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
+        background-size: cover;
+        background-position: center center;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -120,6 +123,16 @@ display: flex;
 align-items:center;
 }
 
+.add-header-item::after {
+    position:absolute;
+    width:48px;
+    height:4px;
+    align-items:center;
+    content:"";
+    display: block;
+    background-color: #4f42b5;
+   margin-top:20px;
+}
 .logo {
     font-family:"Raleway", sans-serif;
     font-weight:700;

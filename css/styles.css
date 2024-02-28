@@ -30,6 +30,9 @@ img {
 }
 .header {
     border-bottom:1px solid #8e8f99;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .contacts {
     font-style: normal;
@@ -142,7 +145,7 @@ align-items:center;
     text-transform:uppercase;
     color:#4D5AE5;
     margin-right:76px;
-  
+   position:relative;
 }
 .logo-part {
 color: #2e2f42;

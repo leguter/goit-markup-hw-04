@@ -157,11 +157,9 @@ color: #2e2f42;
     display: block;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
-}
-.current {
 color: #404bbf;
 }
+
  
 .current::after {
     content:"";
@@ -178,6 +176,9 @@ color: #404bbf;
     bottom: -1px;
     border-radius: 2px; 
     
+}
+.current {
+    color: #404bbf;
 }
 .header-item:hover {
     font-weight: 500;

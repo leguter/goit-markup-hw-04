@@ -425,7 +425,7 @@ margin-bottom:16px;
 .footer-links-item {
     width:40px;
     height:40px;
-
+transition: background-color 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rd-icons-footer {
     display: flex;
@@ -443,7 +443,7 @@ margin-bottom:16px;
     margin-right:120px;
 }
 .footer-svg {
-    fill: #31d0aa;
+    fill: #f4f4fd;
 }
 .logo-footer-part {
 font-family: "Raleway", sans-serif;

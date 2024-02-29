@@ -330,8 +330,9 @@ color: #434455;
     left:0;
     width:100%;
     height:100%;
-    transform:translateY(100%);
+    transform: translateY(100%);
      transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+     overflow: hidden;
 }
 .text-overlay {
     font-weight: 400;
@@ -363,7 +364,7 @@ color: #434455;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-        transform:translateY(0%);
+transform: translateY(0%);
 }
 .portfolio-list:hover .overlay {
     transform: translateY(0);

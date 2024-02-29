@@ -191,7 +191,7 @@ color: #2e2f42;
     border-radius: 2px;
 
 }
- .header.current {
+ .header .current {
     color: #404bbf;
 }
 .nd-section {

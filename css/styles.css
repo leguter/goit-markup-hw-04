@@ -158,9 +158,6 @@ color: #2e2f42;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current {
-    color: #404bbf;
-}
 .header-item:hover {
     font-weight: 500;
         font-size: 16px;
@@ -176,9 +173,7 @@ color: #2e2f42;
     color: #404bbf;
 }
 
-.current {
-    color: #404bbf;
-}
+
 
 .current::after {
     content: "";
@@ -195,6 +190,9 @@ color: #2e2f42;
     bottom: -1px;
     border-radius: 2px;
 
+}
+ .header.current {
+    color: #404bbf;
 }
 .nd-section {
     padding: 120px 0;

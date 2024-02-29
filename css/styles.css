@@ -161,6 +161,7 @@ color: #2e2f42;
 }
 
 .curent::after {
+    content:"";
     position: absolute;
     width: 48px;
     height: 4px;
@@ -175,7 +176,6 @@ color: #2e2f42;
     border-radius: 2px; 
     color: #404bbf;
 }
-
 .header-item:hover {
     font-weight: 500;
         font-size: 16px;

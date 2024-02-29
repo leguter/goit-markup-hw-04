@@ -178,9 +178,6 @@ color: #2e2f42;
     border-radius: 2px; 
     
 }
-.current {
-    color: #404bbf;
-}
 .header-item:hover {
     font-weight: 500;
         font-size: 16px;

@@ -438,11 +438,15 @@ margin-bottom:16px;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        transition: background-color 250ms 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.rd-icons-footer:hover, .rd-icons-footer:focus {
+.rd-icons-footer:hover {
     background-color: #31d0aa;
 }
+.rd-icons-footer:focus {
+    background-color: #31d0aa;
+ }
+
 .logo-p-footer {
     margin-right:120px;
 }

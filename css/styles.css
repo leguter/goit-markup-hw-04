@@ -73,6 +73,7 @@ img {
         background-position: center;
         max-width: 1440px;
         background-repeat:no-repeat;
+        margin: 0 auto;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -313,7 +314,6 @@ color: #434455;
         text-align: center;
         color: #2e2f42;
         margin-bottom: 8px;
-        padding-top: 32px;
 }
 .team-position {
         font-size: 16px;
@@ -321,6 +321,7 @@ color: #434455;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        margin-bottom: 8px;
 }
 .th-section {
     padding: 120px 0;
@@ -376,7 +377,6 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 32px;
     
 }
 .portf-descr {
@@ -391,12 +391,11 @@ font-weight: 500;
         border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
         padding: 32px 16px;
-        margin-bottom: 48px;
+        
 }
 .container-footer {
     display:flex;
     align-items:baseline;
-    margin-bottom: 16px;
 }
 .advice {
     font-size: 16px;
@@ -422,6 +421,11 @@ margin-bottom:16px;
     width:40px;
     height:40px;
 
+}
+.footer-icons-div {
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
 }
 .rd-icons-footer {
     display: flex;
